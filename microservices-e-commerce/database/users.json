@@ -1,0 +1,23 @@
+{
+  "diksha_garg" : {
+    "id": "diksha_garg",
+    "name": "Diksha Garg",
+    "contact_info": 123456789
+  },
+  "pooja_kalra" : {
+    "id": "pooja_kalra",
+    "name": "Pooja Kalra",
+    "contact_info": 123456789
+  },
+  "preksha_jain" : {
+    "id": "preksha_jain",
+    "name": "Preksha Jain",
+    "contact_info": 123456789
+  },
+  "kartar" : {
+    "id": "kartar",
+    "name": "Kartar",
+    "contact_info": 123456789
+  }
+
+}

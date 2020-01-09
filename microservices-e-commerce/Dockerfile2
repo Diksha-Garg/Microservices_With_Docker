@@ -1,0 +1,18 @@
+FROM tiangolo/uwsgi-nginx-flask:python3.6-alpine3.7
+
+MAINTAINER diksha
+
+COPY services/bookings.py /app
+
+COPY database/bookings.json /app
+
+COPY requirements.txt /app
+
+WORKDIR /app
+
+RUN pip install -r requirements.txt
+
+#EXPOSE 5000
+
+#CMD ["python3", "bookings.py", "--host", "0.0.0.0"]
+CMD ["python3", "bookings.py"]

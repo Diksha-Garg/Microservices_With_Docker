@@ -1,0 +1,37 @@
+
+version: '2.0'
+services:
+   products_service:
+     build:
+       context: ./
+       dockerfile: Dockerfile1
+     image: test1_product
+     ports:
+       - 5003:82
+     container_name: test1_product
+     hostname: test1_product
+     privileged: true
+   
+   bookings_service:
+     build:
+       context: ./
+       dockerfile: Dockerfile2
+     image: test2_booking
+     ports:
+       - 5001:81
+     container_name: test2_booking
+     hostname: test2_booking
+     privileged: true
+   user_service:
+     build:
+       context: ./
+       dockerfile: Dockerfile3
+     image: test3
+     ports:
+       - 5002:80
+     container_name: test3_booking
+     hostname: test3_booking
+     #network_mode: "host"
+     privileged: true
+   
+

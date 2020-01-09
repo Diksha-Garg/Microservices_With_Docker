@@ -1,0 +1,44 @@
+{
+  "12345": {
+    "type": "Clothes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "12345"
+  },
+  "54321": {
+    "type": "Shoes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "54321"
+  },
+  "98765": {
+    "type": "Accesiories",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "98765"
+  },
+  "67890": {
+    "type": "Clothes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "67890"
+  },
+  "09876": {
+    "type": "Clothes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "09876"
+  },
+  "56784": {
+    "type": "Clothes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "56784"
+  },
+  "48765": {
+    "type": "Clothes",
+    "rating": 7.4,
+    "gender": "Male",
+    "id": "48765"
+  }
+}
